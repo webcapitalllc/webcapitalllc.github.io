@@ -4,8 +4,11 @@
 
 
 .top-bar {
+  margin: 0 auto;
+  max-width: $row-width;
+
   .title-area {
-    padding:0 0 0 $column-gutter;
+    padding:0 0 0 $column-gutter/2;
 
     .name {
       padding-right: $column-gutter;
@@ -45,7 +48,7 @@
   }
 
   @media #{$topbar-media-query}{
-    padding:0 $column-gutter 0 0;
+    padding:0 $column-gutter/2 0 0;
 
     ul li {
       background: none;

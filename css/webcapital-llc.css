@@ -2929,7 +2929,7 @@ footer {
   padding: 0 0.9375rem; }
 
 .content {
-  padding: 3.75rem 1.875rem 5.625rem; }
+  padding: 3.75rem 0 5.625rem; }
   @media only screen and (min-width: 64.063em) {
     .content {
       padding-left: 0;
@@ -2958,15 +2958,18 @@ footer {
   height: 1.5rem;
   width: 1.5rem; }
 
-.top-bar .title-area {
-  padding: 0 0 0 1.875rem; }
-  .top-bar .title-area .name {
-    padding-right: 1.875rem; }
-    .top-bar .title-area .name a {
-      height: 100%; }
-      .top-bar .title-area .name a img {
-        height: 3.25rem;
-        margin-top: 0.9375rem; }
+.top-bar {
+  margin: 0 auto;
+  max-width: 87.5rem; }
+  .top-bar .title-area {
+    padding: 0 0 0 0.9375rem; }
+    .top-bar .title-area .name {
+      padding-right: 1.875rem; }
+      .top-bar .title-area .name a {
+        height: 100%; }
+        .top-bar .title-area .name a img {
+          height: 3.25rem;
+          margin-top: 0.9375rem; }
 
 .top-bar-section ul.right {
   text-align: center;
@@ -2980,7 +2983,7 @@ footer {
       background: none; }
 @media only screen and (min-width: 48em) {
   .top-bar-section {
-    padding: 0 1.875rem 0 0; }
+    padding: 0 0.9375rem 0 0; }
     .top-bar-section ul li {
       background: none; }
       .top-bar-section ul li:not(.has-form) a:not(.button) {

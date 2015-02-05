@@ -3,7 +3,7 @@
 // ==========================================
 
 .content {
-  padding: $gutter-large $column-gutter $gutter-extra-large;
+  padding: $gutter-large 0 $gutter-extra-large;
 
   @media #{$large-up} {
     padding-left: 0;
