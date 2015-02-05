@@ -2,13 +2,28 @@
 //  Sliders.scss
 // ==========================================
 
+.slider-wrapper {
+  position: relative;
+}
+
 .slider-logo {
-  margin-bottom: $column-gutter;
+  background: rgba(0,0,0,0.65);
+  padding: $gutter-split $column-gutter;
+  position: absolute;
   text-align: center;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%); 
+          transform: translateY(-50%);
   width: 100%;
+  z-index:10;
 
   img {
     max-width: rem-calc(300);
+  }
+
+  @media #{$medium-up}{
+    padding: $column-gutter;
   }
 }
 
