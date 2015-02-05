@@ -2914,6 +2914,20 @@ blockquote p {
 
   h6 {
     font-size: 1rem; } }
+footer {
+  color: #4d4d4d;
+  font-size: 0.875rem;
+  padding: 1.875rem;
+  text-align: center; }
+  footer .name-address {
+    display: block; }
+  @media only screen and (min-width: 48em) {
+    footer .name-address {
+      display: inline; } }
+
+.spacer {
+  padding: 0 0.9375rem; }
+
 header {
   background: url(../img/header-bkg.jpg) no-repeat center 0;
   background-size: cover;
@@ -3009,5 +3023,8 @@ header {
 
 .auto-slider {
   margin-bottom: 8.4375rem; }
+  @media only screen and (min-width: 64.063em) {
+    .auto-slider {
+      margin-bottom: 0; } }
 
 /*# sourceMappingURL=webcapital-llc.css.map */

@@ -14,4 +14,8 @@
 
 .auto-slider {
   margin-bottom: $gutter-extra-large*1.5;
+
+  @media #{$large-up}{
+    margin-bottom: 0;
+  }
 }
