@@ -48,6 +48,10 @@ $icon-linkedin-gray: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20versio
 $social-link-size: rem-calc(24);
 
 
+// Slick Slider
+$slider-arrow-size: rem-calc(36);
+$slider-arrow-offset: rem-calc(5);
+
 
 // Foundations Overrides
 // ==========================================
@@ -63,6 +67,8 @@ $body-font-color: $black;
 // We use this to control whether or not CSS classes come through in the gem files.
 $include-print-styles: false;
 
+
+$row-width: rem-calc(1400);
 
 // Media Query Ranges
 $small-range: (0, 47.9375em); // 0 - 767

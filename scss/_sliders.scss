@@ -1,0 +1,17 @@
+// ==========================================
+//  Sliders.scss
+// ==========================================
+
+.slider-logo {
+  margin-bottom: $column-gutter;
+  text-align: center;
+  width: 100%;
+
+  img {
+    max-width: rem-calc(300);
+  }
+}
+
+.auto-slider {
+  margin-bottom: $gutter-extra-large*1.5;
+}

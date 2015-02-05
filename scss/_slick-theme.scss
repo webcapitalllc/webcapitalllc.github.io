@@ -1,0 +1,25 @@
+// ==========================================
+//  Slick-Theme.scss
+// ==========================================
+
+.slick-prev, .slick-next {
+  width: $slider-arrow-size;
+  height: $slider-arrow-size;
+
+  &:before {
+    color: $primary-color;
+    font-size: $slider-arrow-size;
+  }
+}
+
+.slick-next {
+  right: -($slider-arrow-size + $slider-arrow-offset);
+}
+
+.slick-prev {
+  left: -($slider-arrow-size + $slider-arrow-offset);
+}
+
+.slick-dots {
+  margin-left:0;
+}

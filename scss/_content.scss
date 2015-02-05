@@ -1,0 +1,12 @@
+// ==========================================
+//  Content.scss
+// ==========================================
+
+.content {
+  padding: $gutter-extra-large $column-gutter;
+
+  @media #{$large-up} {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
