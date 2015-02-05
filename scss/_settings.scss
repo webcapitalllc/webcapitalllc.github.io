@@ -1,0 +1,93 @@
+// ==========================================
+//  Settings.scss
+// ==========================================
+
+
+// Web Captial LLC
+// ==========================================
+
+// Type
+$font-weight-light: 300;
+
+
+// Color
+$white: #fff;
+$black: #000;
+
+$blue: #0032a0;
+$primary-color: $blue;
+
+
+// Layout
+$column-gutter: rem-calc(30);
+$gutter-split: $column-gutter/2;
+$gutter-large: $column-gutter*2;
+$gutter-extra-large: $column-gutter*3;
+
+
+// Topbar
+$logo-height: rem-calc(52);
+
+
+// Header
+$header-height: rem-calc(400);
+
+
+// Icons
+$icon-facebook: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.1%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22-383%20757%20412%20412%22%20enable-background%3D%22new%20-383%20757%20412%20412%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20id%3D%22facebook-square-rounded-icon%22%20fill%3D%22%230032A0%22%20d%3D%22M-21%2C757h-312c-27.6%2C0-50%2C22.4-50%2C50v312c0%2C27.6%2C22.4%2C50%2C50%2C50h312%0D%0A%09c27.6%2C0%2C50-22.4%2C50-50V807C29%2C779.4%2C6.6%2C757-21%2C757z%20M-109.3%2C867.7c0%2C0-22.9%2C0-32%2C0c-11.3%2C0-13.6%2C4.6-13.6%2C16.3c0%2C9.7%2C0%2C28.2%2C0%2C28.2%0D%0A%09h45.6l-4.4%2C49.6h-41.2v148H-214V962.4h-30.7v-50.2h30.7c0%2C0%2C0-7.2%2C0-39.5c0-37.1%2C19.8-56.5%2C63.8-56.5c7.2%2C0%2C40.9%2C0%2C40.9%2C0V867.7z%22/%3E%0D%0A%3C/svg%3E%0D%0A');
+$icon-facebook-gray: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.1%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22-383%20757%20412%20412%22%20enable-background%3D%22new%20-383%20757%20412%20412%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20id%3D%22facebook-square-rounded-icon%22%20fill%3D%22%237D868C%22%20d%3D%22M-21%2C757h-312c-27.6%2C0-50%2C22.4-50%2C50v312c0%2C27.6%2C22.4%2C50%2C50%2C50h312%0D%0A%09c27.6%2C0%2C50-22.4%2C50-50V807C29%2C779.4%2C6.6%2C757-21%2C757z%20M-109.3%2C867.7c0%2C0-22.9%2C0-32%2C0c-11.3%2C0-13.6%2C4.6-13.6%2C16.3c0%2C9.7%2C0%2C28.2%2C0%2C28.2%0D%0A%09h45.6l-4.4%2C49.6h-41.2v148H-214V962.4h-30.7v-50.2h30.7c0%2C0%2C0-7.2%2C0-39.5c0-37.1%2C19.8-56.5%2C63.8-56.5c7.2%2C0%2C40.9%2C0%2C40.9%2C0V867.7z%22/%3E%0D%0A%3C/svg%3E%0D%0A');
+
+$icon-twitter: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.1%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22-383%20757%20412%20412%22%20enable-background%3D%22new%20-383%20757%20412%20412%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20id%3D%22twitter-3-icon%22%20fill%3D%22%230032A0%22%20d%3D%22M-21%2C757h-312c-27.6%2C0-50%2C22.4-50%2C50v312c0%2C27.6%2C22.4%2C50%2C50%2C50h312%0D%0A%09c27.6%2C0%2C50-22.4%2C50-50V807C29%2C779.4%2C6.6%2C757-21%2C757z%20M-61.1%2C914.1c3.6%2C79.1-55.4%2C167.2-159.8%2C167.2c-31.7%2C0-61.3-9.3-86.2-25.3%0D%0A%09c29.8%2C3.5%2C59.6-4.8%2C83.2-23.3c-24.6-0.5-45.4-16.7-52.5-39c8.8%2C1.7%2C17.5%2C1.2%2C25.4-1c-27-5.4-45.7-29.8-45.1-55.8%0D%0A%09c7.6%2C4.2%2C16.2%2C6.7%2C25.5%2C7c-25-16.7-32.1-49.8-17.4-75c27.7%2C34%2C69.1%2C56.4%2C115.9%2C58.7c-8.2-35.2%2C18.5-69%2C54.8-69%0D%0A%09c16.2%2C0%2C30.8%2C6.8%2C41%2C17.8c12.8-2.5%2C24.8-7.2%2C35.7-13.6c-4.2%2C13.1-13.1%2C24.1-24.7%2C31.1c11.4-1.4%2C22.2-4.4%2C32.3-8.9%0D%0A%09C-40.5%2C896.3-50.1%2C906.2-61.1%2C914.1z%22/%3E%0D%0A%3C/svg%3E%0D%0A');
+$icon-twitter-gray: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.1%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22-383%20757%20412%20412%22%20enable-background%3D%22new%20-383%20757%20412%20412%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20id%3D%22twitter-3-icon%22%20fill%3D%22%237D868C%22%20d%3D%22M-21%2C757h-312c-27.6%2C0-50%2C22.4-50%2C50v312c0%2C27.6%2C22.4%2C50%2C50%2C50h312%0D%0A%09c27.6%2C0%2C50-22.4%2C50-50V807C29%2C779.4%2C6.6%2C757-21%2C757z%20M-61.1%2C914.1c3.6%2C79.1-55.4%2C167.2-159.8%2C167.2c-31.7%2C0-61.3-9.3-86.2-25.3%0D%0A%09c29.8%2C3.5%2C59.6-4.8%2C83.2-23.3c-24.6-0.5-45.4-16.7-52.5-39c8.8%2C1.7%2C17.5%2C1.2%2C25.4-1c-27-5.4-45.7-29.8-45.1-55.8%0D%0A%09c7.6%2C4.2%2C16.2%2C6.7%2C25.5%2C7c-25-16.7-32.1-49.8-17.4-75c27.7%2C34%2C69.1%2C56.4%2C115.9%2C58.7c-8.2-35.2%2C18.5-69%2C54.8-69%0D%0A%09c16.2%2C0%2C30.8%2C6.8%2C41%2C17.8c12.8-2.5%2C24.8-7.2%2C35.7-13.6c-4.2%2C13.1-13.1%2C24.1-24.7%2C31.1c11.4-1.4%2C22.2-4.4%2C32.3-8.9%0D%0A%09C-40.5%2C896.3-50.1%2C906.2-61.1%2C914.1z%22/%3E%0D%0A%3C/svg%3E%0D%0A');
+
+$icon-linkedin: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.1%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22-383%20757%20412%20412%22%20enable-background%3D%22new%20-383%20757%20412%20412%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20id%3D%22linkedin-square-rounded-icon%22%20fill%3D%22%230032A0%22%20d%3D%22M-21%2C757h-312c-27.6%2C0-50%2C22.4-50%2C50v312c0%2C27.6%2C22.4%2C50%2C50%2C50h312%0D%0A%09c27.6%2C0%2C50-22.4%2C50-50V807C29%2C779.4%2C6.6%2C757-21%2C757z%20M-251.9%2C1100h-56.5V917.3h56.5V1100z%20M-280.5%2C893.4%0D%0A%09c-18.5%2C0-33.4-15.1-33.4-33.7c0-18.6%2C15-33.7%2C33.4-33.7c18.5%2C0%2C33.4%2C15.1%2C33.4%2C33.7C-247.1%2C878.3-262%2C893.4-280.5%2C893.4z%0D%0A%09%20M-40.1%2C1100h-56.3c0%2C0%2C0-69.6%2C0-95.9c0-26.3-10-41-30.8-41c-22.6%2C0-34.5%2C15.3-34.5%2C41c0%2C28.1%2C0%2C95.9%2C0%2C95.9h-54.2V917.3h54.2v24.6%0D%0A%09c0%2C0%2C16.3-30.2%2C55-30.2s66.5%2C23.6%2C66.5%2C72.6C-40.1%2C1033.3-40.1%2C1100-40.1%2C1100z%22/%3E%0D%0A%3C/svg%3E%0D%0A');
+$icon-linkedin-gray: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2018.1.1%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%22-383%20757%20412%20412%22%20enable-background%3D%22new%20-383%20757%20412%20412%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20id%3D%22linkedin-square-rounded-icon%22%20fill%3D%22%237D868C%22%20d%3D%22M-21%2C757h-312c-27.6%2C0-50%2C22.4-50%2C50v312c0%2C27.6%2C22.4%2C50%2C50%2C50h312%0D%0A%09c27.6%2C0%2C50-22.4%2C50-50V807C29%2C779.4%2C6.6%2C757-21%2C757z%20M-251.9%2C1100h-56.5V917.3h56.5V1100z%20M-280.5%2C893.4%0D%0A%09c-18.5%2C0-33.4-15.1-33.4-33.7c0-18.6%2C15-33.7%2C33.4-33.7c18.5%2C0%2C33.4%2C15.1%2C33.4%2C33.7C-247.1%2C878.3-262%2C893.4-280.5%2C893.4z%0D%0A%09%20M-40.1%2C1100h-56.3c0%2C0%2C0-69.6%2C0-95.9c0-26.3-10-41-30.8-41c-22.6%2C0-34.5%2C15.3-34.5%2C41c0%2C28.1%2C0%2C95.9%2C0%2C95.9h-54.2V917.3h54.2v24.6%0D%0A%09c0%2C0%2C16.3-30.2%2C55-30.2s66.5%2C23.6%2C66.5%2C72.6C-40.1%2C1033.3-40.1%2C1100-40.1%2C1100z%22/%3E%0D%0A%3C/svg%3E%0D%0A');
+
+
+// Social Links
+$social-link-size: rem-calc(24);
+
+
+
+// Foundations Overrides
+// ==========================================
+
+$font-family-sans-serif: 'Fira Sans', sans-serif;
+
+// We use these to define default font weights
+$font-weight-normal: 400;
+
+// We use these to control various global styles
+$body-font-color: $black;
+
+// We use this to control whether or not CSS classes come through in the gem files.
+$include-print-styles: false;
+
+
+// Media Query Ranges
+$small-range: (0, 47.9375em); // 0 - 767
+$medium-range: (48em, 64em); // 768 - 1024
+
+
+// Background color for the top bar
+$topbar-bg-color: rgba(255,255,255,0.8);
+
+
+// Set the link colors and styles for top-level nav
+$topbar-link-color: $blue;
+$topbar-link-bg-hover: $primary-color;
+$topbar-link-font-size: rem-calc(16);
+
+
+// Style the top bar dropdown elements
+$topbar-dropdown-bg: $topbar-bg-color;
+
+
+// Top menu icon styles
+$topbar-menu-link-font-size: $topbar-link-font-size;
+$topbar-menu-link-color: $topbar-link-color;
+$topbar-menu-icon-color: $topbar-link-color;
+
+
+// Height and margin
+$topbar-height: rem-calc(82);

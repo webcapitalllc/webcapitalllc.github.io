@@ -9,10 +9,43 @@
     
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/webcapital-llc.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <header>
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <a href="#"><img src="img/logo.svg" /></a>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
 
-    <h1>Web Capital LLC</h1>
+        <section class="top-bar-section">
+          <ul class="left">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+
+          <ul class="right">
+            <li><a href="#" class="social-link" title="Follow us on Twitter"><span class="icon icon-twitter"></span></a></li>
+            <li><a href="#" class="social-link" title="Like us on Facebook"><span class="icon icon-facebook"></span></a></li>
+            <li><a href="#" class="social-link" title="Join us on LinkedIn"><span class="icon icon-linkedin"></span></a></li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+
+    <script src="libs/jquery/jquery-2.1.3.min.js"></script>
+    <script src="libs/foundation-5.5.0/js/foundation/foundation.js"></script>
+    <script src="libs/foundation-5.5.0/js/foundation/foundation.topbar.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

@@ -1,0 +1,71 @@
+// ==========================================
+//  Topbar.scss
+// ==========================================
+
+
+.top-bar {
+  .title-area {
+    padding:0 0 0 $column-gutter;
+
+    .name {
+      a {
+        height: 100%;
+
+        img {
+          height: $logo-height;
+          margin-top: ($topbar-height - $logo-height)/2;
+        }
+      }
+    }
+  }
+}
+
+.top-bar-section {
+
+  ul {
+
+    &.right {
+      text-align: center;
+      background: $topbar-bg-color;
+
+      li {
+        display: inline-block;
+        background:none;
+
+        & > a {
+          display: inline-block;
+        }
+
+        &:hover:not(.has-form) > a {
+          background: none;
+        }
+      }
+    }
+  }
+
+  @media #{$topbar-media-query}{
+    padding:0 $column-gutter 0 0;
+
+    ul li {
+      background: none;
+
+      &:not(.has-form) a:not(.button) {
+        background:none;
+
+        &.social-link {
+          padding:0 $column-gutter/4;
+
+          &:hover {
+            background:none;
+          }
+        }
+      }
+
+
+      .social-link .icon {
+        margin-top: ($topbar-height - $social-link-size)/2;
+      }
+    }
+  }
+}
+
