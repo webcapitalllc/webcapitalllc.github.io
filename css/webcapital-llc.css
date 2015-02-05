@@ -2928,13 +2928,8 @@ footer {
 .spacer {
   padding: 0 0.9375rem; }
 
-header {
-  background: url(../img/header-bkg.jpg) no-repeat center 0;
-  background-size: cover;
-  height: 25rem; }
-
 .content {
-  padding: 5.625rem 1.875rem; }
+  padding: 3.75rem 1.875rem 5.625rem; }
   @media only screen and (min-width: 64.063em) {
     .content {
       padding-left: 0;
@@ -2965,11 +2960,13 @@ header {
 
 .top-bar .title-area {
   padding: 0 0 0 1.875rem; }
-  .top-bar .title-area .name a {
-    height: 100%; }
-    .top-bar .title-area .name a img {
-      height: 3.25rem;
-      margin-top: 0.9375rem; }
+  .top-bar .title-area .name {
+    padding-right: 1.875rem; }
+    .top-bar .title-area .name a {
+      height: 100%; }
+      .top-bar .title-area .name a img {
+        height: 3.25rem;
+        margin-top: 0.9375rem; }
 
 .top-bar-section ul.right {
   text-align: center;
